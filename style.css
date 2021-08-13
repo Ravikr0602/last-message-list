@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lora', serif;
+}
+
+.contanier {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background: #131419;
+
+}
+
+.main_contanier
+{
+	width: 80%;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 5em;
+	border-radius: 0.5em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #131419;
+    text-align: center;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+                 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.send_box
+{
+   width: 80%;  
+   height: auto;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+#title
+{
+	font-size: 3rem;
+	font-weight: 900;
+	color:  #ff0047;
+	
+}
+
+.input_box {
+	width: 80%;  
+	height: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#message
+{
+	width: 100%;
+    height: 50px;
+	color: #006c9c;
+    background: #131419;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 5px 15px;
+    font-size: 18px;
+	font-weight: 700;
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+button
+{
+	width: auto;
+    height: auto;
+	padding: 16px 25px;
+    color:  #ff0047;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #131419;
+	font-size: 1.2rem;
+    font-weight: 900;
+    transition: 0.5s;  
+    margin-top: 25px;
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+                 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+  
+button:hover 
+{
+    color: #006c9c;
+    margin-top: 25px;
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.display_message_box
+{
+	width: 100%;  
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#display_title
+{
+	width: 100%;
+	font-size: 2.2rem;
+	color: #006c9c;
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 0.5em;
+} 
+
+#no_message
+{
+	font-size: 18px;
+	color: white;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 5px;
+}

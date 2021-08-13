@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivered-message-list </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="contanier">
+
+    <div class="main_contanier">
+        
+        <div class="send_box">
+            <div class="enter-msg">
+                <h1 id="title">Send Message to Anywhere</h1>
+                <div class="input_box">
+                    <input id="message" type="text" placeholder="Enter your message!">
+                    <button onclick="sendMessage()">Send Message</button>
+                </div>
+            </div>
+
+            <div class="display_message_box">
+                <h2 id="display_title">Delivered Messages List</h2> 
+                <ul id="delivered_messages">
+                    <li id="no_message">No messages send so far</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
